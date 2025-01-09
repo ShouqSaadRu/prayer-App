@@ -52,7 +52,6 @@ IDE: Android Studio
 
 ---
 
-
 ![Image](https://github.com/ShouqSaadRu/prayer-App/blob/master/app/src/main/res/values/1.png?raw=true)
 ![Image](https://github.com/ShouqSaadRu/prayer-App/blob/master/app/src/main/res/values/5.png?raw=true)
 
