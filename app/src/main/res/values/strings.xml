@@ -1,0 +1,463 @@
+<resources>
+    <string name="app_name">PrayerClock</string>
+
+
+        <string name="action_settings">Settings</string>
+
+
+        <string name="zero_hour">00:00</string>
+
+
+        <string name="fajr">Fajr</string>
+        <string name="sunset">Sunset</string>
+        <string name="sunrise">SunRise</string>
+        <string name="dhuhr">Dhuhr</string>
+        <string name="jumu3a">Jumuaa</string>
+        <string name="asr">Asr</string>
+        <string name="maghrib">Maghrib</string>
+        <string name="isha">Isha</string>
+
+
+
+
+        <string-array name="city_names">
+            <item>Sudayr</item>
+            <item>Tumayr</item>
+            <item>Al Magma\'ah</item>
+            <item>New York</item>
+            <item>Los Angeles</item>
+            <item>Chicago</item>
+            <item>Toronto</item>
+            <item>Vancouver</item>
+            <item>London</item>
+            <item>Paris</item>
+            <item>Berlin</item>
+            <item>Moscow</item>
+            <item>Tokyo</item>
+            <item>Beijing</item>
+            <item>Sydney</item>
+            <item>Mumbai</item>
+            <item>Delhi</item>
+            <item>Bangkok</item>
+            <item>Seoul</item>
+            <item>Shanghai</item>
+            <item>Hong Kong</item>
+            <item>Singapore</item>
+            <item>Jakarta</item>
+            <item>Istanbul</item>
+            <item>Cairo</item>
+            <item>Lagos</item>
+            <item>Kinshasa</item>
+            <item>Riyadh</item>
+            <item>Mecca</item>
+            <item>Dubai</item>
+            <item>Abu Dhabi</item>
+            <item>Tehran</item>
+            <item>Baghdad</item>
+            <item>Jerusalem</item>
+            <item>Amman</item>
+            <item>Beirut</item>
+            <item>Doha</item>
+            <item>Manama</item>
+            <item>Kuwait City</item>
+            <item>Amsterdam</item>
+            <item>Brussels</item>
+            <item>Vienna</item>
+            <item>Zurich</item>
+            <item>Athens</item>
+            <item>Prague</item>
+            <item>Warsaw</item>
+            <item>Budapest</item>
+            <item>Bratislava</item>
+            <item>Bucharest</item>
+            <item>Sofia</item>
+            <item>Belgrade</item>
+            <item>Zagreb</item>
+            <item>Ljubljana</item>
+            <item>Skopje</item>
+            <item>Podgorica</item>
+            <item>Tirana</item>
+            <item>Nicosia</item>
+            <item>Manila</item>
+            <item>Hanoi</item>
+            <item>Phnom Penh</item>
+            <item>Vientiane</item>
+            <item>Ulaanbaatar</item>
+            <item>Pyongyang</item>
+            <item>Islamabad</item>
+            <item>Kabul</item>
+            <item>Tashkent</item>
+            <item>Ashgabat</item>
+            <item>Dushanbe</item>
+            <item>Bishkek</item>
+            <item>Lima</item>
+            <item>Bogota</item>
+            <item>Santiago</item>
+            <item>Caracas</item>
+            <item>Quito</item>
+            <item>Montevideo</item>
+            <item>Asuncion</item>
+            <item>San Salvador</item>
+            <item>Tegucigalpa</item>
+            <item>Guatemala City</item>
+            <item>San Jose</item>
+            <item>Managua</item>
+            <item>Belmopan</item>
+            <item>Santo Domingo</item>
+            <item>Port-au-Prince</item>
+            <item>Havana</item>
+            <item>Kingston</item>
+            <item>Nassau</item>
+            <item>Port of Spain</item>
+            <item>Bridgetown</item>
+            <item>Georgetown</item>
+            <item>Paramaribo</item>
+            <item>Castries</item>
+            <item>St. John\'s</item>
+            <item>Basseterre</item>
+            <item>St. George\'s</item>
+            <item>Roseau</item>
+            <item>Port Moresby</item>
+            <item>Apia</item>
+            <item>Nuku\'alofa</item>
+            <item>Honiara</item>
+            <item>Funafuti</item>
+            <item>Suva</item>
+            <item>Palikir</item>
+            <item>Majuro</item>
+            <item>Tarawa</item>
+            <item>Port Vila</item>
+            <item>Yaren District</item>
+            <item>Avarua</item>
+            <item>Pago Pago</item>
+            <item>Wellington</item>
+            <item>Canberra</item>
+            <item>San Francisco</item>
+            <item>Amman</item>
+            <item>Gaza</item>
+            <item>Mexico City</item>
+            <item>Rio de Janeiro</item>
+            <item>Buenos Aires</item>
+            <item>Sao Paulo</item>
+            <item>Lisbon</item>
+            <item>Madrid</item>
+            <item>Barcelona</item>
+            <item>Florence</item>
+            <item>Venice</item>
+            <item>Rome</item>
+            <item>Seville</item>
+            <item>Valencia</item>
+            <item>Bilbao</item>
+            <item>Granada</item>
+            <item>Malaga</item>
+            <item>Toledo</item>
+            <item>Valletta</item>
+            <item>Geneva</item>
+            <item>Lucerne</item>
+            <item>Bern</item>
+            <item>Interlaken</item>
+            <item>Lausanne</item>
+            <item>Montreux</item>
+            <item>Zermatt</item>
+            <item>Salzburg</item>
+            <item>Innsbruck</item>
+            <item>Graz</item>
+            <item>Linz</item>
+            <item>Debrecen</item>
+            <item>Szeged</item>
+            <item>Pecs</item>
+            <item>Miskolc</item>
+            <item>Brno</item>
+            <item>Ostrava</item>
+            <item>Plzen</item>
+            <item>Liberec</item>
+            <item>Olomouc</item>
+            <item>Krakow</item>
+            <item>Lodz</item>
+            <item>Wroclaw</item>
+            <item>Poznan</item>
+            <item>Gdansk</item>
+            <item>Rotterdam</item>
+            <item>The Hague</item>
+            <item>Utrecht</item>
+            <item>Eindhoven</item>
+            <item>Groningen</item>
+            <item>Marseille</item>
+            <item>Lyon</item>
+            <item>Toulouse</item>
+            <item>Nice</item>
+            <item>Strasbourg</item>
+            <item>Birmingham</item>
+            <item>Leeds</item>
+            <item>Sheffield</item>
+            <item>Newcastle</item>
+            <item>Cardiff</item>
+            <item>Cork</item>
+            <item>Galway</item>
+            <item>Porto</item>
+            <item>Braga</item>
+            <item>Coimbra</item>
+            <item>Faro</item>
+            <item>Funchal</item>
+            <item>Salerno</item>
+            <item>Genoa</item>
+            <item>Perugia</item>
+            <item>Pisa</item>
+            <item>Bari</item>
+            <item>Catania</item>
+            <item>Verona</item>
+            <item>Trieste</item>
+            <item>Bologna</item>
+            <item>Padua</item>
+            <item>Rimini</item>
+            <item>Ravenna</item>
+            <item>Brescia</item>
+            <item>Modena</item>
+            <item>Ferrara</item>
+            <item>Mantua</item>
+            <item>Pistoia</item>
+            <item>Vicenza</item>
+            <item>Ancona</item>
+            <item>Parma</item>
+            <item>Arezzo</item>
+            <item>Pescara</item>
+            <item>Bolzano</item>
+            <item>Udine</item>
+            <item>Cagliari</item>
+            <item>Treviso</item>
+            <item>Novara</item>
+            <item>Brindisi</item>
+            <item>Andria</item>
+            <item>Varese</item>
+            <item>Livorno</item>
+            <item>Monza</item>
+            <item>Reggio Calabria</item>
+            <item>Piacenza</item>
+            <item>Barletta</item>
+            <item>Lucca</item>
+            <item>Ragusa</item>
+            <item>Merano</item>
+            <item>La Spezia</item>
+            <item>Como</item>
+            <item>Aosta</item>
+            <item>Catanzaro</item>
+            <item>Portici</item>
+            <item>Pordenone</item>
+            <item>Pomezia</item>
+            <item>Sassari</item>
+            <item>Viareggio</item>
+            <item>Chieti</item>
+            <item>Avellino</item>
+            <item>Molfetta</item>
+            <item>Massa</item>
+            <item>Imola</item>
+            <item>Manfredonia</item>
+            <item>Sanremo</item>
+            <item>Cesena</item>
+            <item>Trani</item>
+            <item>Teramo</item>
+            <item>Chieti</item>
+            <item>Novara</item>
+            <item>Cuneo</item>
+            <item>Fermo</item>
+            <item>Gallarate</item>
+            <item>Fano</item>
+            <item>Foligno</item>
+            <item>Monopoli</item>
+            <item>San Severo</item>
+            <item>Acerra</item>
+            <item>Imperia</item>
+            <item>San Giovanni Rotondo</item>
+            <item>Potenza</item>
+            <item>Lamezia Terme</item>
+            <item>Altamura</item>
+            <item>Acireale</item>
+            <item>Bitonto</item>
+            <item>Montesilvano</item>
+            <item>Pavia</item>
+            <item>Corato</item>
+            <item>Gioia del Colle</item>
+            <item>Cosenza</item>
+            <item>Castellammare di Stabia</item>
+            <item>Caltanissetta</item>
+            <item>Civitavecchia</item>
+            <item>Oristano</item>
+            <item>Imola</item>
+            <item>Manfredonia</item>
+            <item>Brindisi</item>
+            <item>Vicenza</item>
+            <item>Parma</item>
+            <item>Reggio Calabria</item>
+            <item>La Spezia</item>
+            <item>Como</item>
+            <item>Monza</item>
+            <item>Sanremo</item>
+            <item>Fano</item>
+            <item>Trani</item>
+            <item>Chieti</item>
+            <item>Gallarate</item>
+            <item>Gallarate</item>
+            <item>Monopoli</item>
+            <item>San Severo</item>
+            <item>Acerra</item>
+            <item>Imperia</item>
+            <item>San Giovanni Rotondo</item>
+            <item>Potenza</item>
+            <item>Lamezia Terme</item>
+            <item>Altamura</item>
+            <item>Acireale</item>
+            <item>Bitonto</item>
+            <item>Montesilvano</item>
+            <item>Pavia</item>
+            <item>Corato</item>
+            <item>Gioia del Colle</item>
+            <item>Cosenza</item>
+            <item>Castellammare di Stabia</item>
+            <item>Caltanissetta</item>
+            <item>Civitavecchia</item>
+            <item>Oristano</item>
+            <item>Lecco</item>
+            <item>Cremona</item>
+            <item>Legnano</item>
+            <item>Pavia</item>
+            <item>Rovigo</item>
+            <item>Savigliano</item>
+            <item>Pinerolo</item>
+            <item>Saronno</item>
+            <item>Gorizia</item>
+            <item>Benevento</item>
+            <item>Avellino</item>
+            <item>Foggia</item>
+            <item>Battipaglia</item>
+            <item>Barletta</item>
+            <item>Matera</item>
+            <item>Altamura</item>
+            <item>Agrigento</item>
+            <item>Trapani</item>
+            <item>Castellammare di Stabia</item>
+            <item>Caltagirone</item>
+            <item>Monreale</item>
+            <item>Mazara del Vallo</item>
+            <item>Patu</item>
+            <item>Marcianise</item>
+            <item>Cava de\' Tirreni</item>
+            <item>Acqui Terme</item>
+            <item>Messina</item>
+            <item>Varese</item>
+            <item>Piacenza</item>
+            <item>Cremona</item>
+            <item>Busto Arsizio</item>
+            <item>Cinisello Balsamo</item>
+            <item>Massa</item>
+            <item>Como</item>
+            <item>Rovigo</item>
+            <item>Carpi</item>
+            <item>Legnano</item>
+            <item>Moncalieri</item>
+            <item>Saronno</item>
+            <item>Gorizia</item>
+            <item>Benevento</item>
+            <item>Avellino</item>
+            <item>Foggia</item>
+            <item>Battipaglia</item>
+            <item>Matera</item>
+            <item>Altamura</item>
+            <item>Agrigento</item>
+            <item>Trapani</item>
+            <item>Castellammare di Stabia</item>
+            <item>Caltagirone</item>
+            <item>Monreale</item>
+            <item>Mazara del Vallo</item>
+            <item>Patu</item>
+            <item>Marcianise</item>
+            <item>Acqui Terme</item>
+            <item>Messina</item>
+            <item>Varese</item>
+            <item>Piacenza</item>
+            <item>Cremona</item>
+            <item>Busto Arsizio</item>
+            <item>Cinisello Balsamo</item>
+            <item>Massa</item>
+            <item>Como</item>
+            <item>Rovigo</item>
+            <item>Carpi</item>
+            <item>Legnano</item>
+            <item>Moncalieri</item>
+            <item>Prato</item>
+            <item>Salerno</item>
+            <item>Reggio Calabria</item>
+            <item>Rimini</item>
+            <item>Ferrara</item>
+            <item>Perugia</item>
+            <item>Pisa</item>
+            <item>Novara</item>
+            <item>Udine</item>
+            <item>Arezzo</item>
+            <item>Cagliari</item>
+            <item>Vicenza</item>
+            <item>Parma</item>
+            <item>Reggio Calabria</item>
+            <item>La Spezia</item>
+            <item>Como</item>
+            <item>Monza</item>
+            <item>Sanremo</item>
+            <item>Fano</item>
+            <item>Trani</item>
+            <item>Chieti</item>
+            <item>Gallarate</item>
+            <item>Monopoli</item>
+            <item>San Severo</item>
+            <item>Acerra</item>
+            <item>Imperia</item>
+            <item>San Giovanni Rotondo</item>
+            <item>Potenza</item>
+            <item>Lamezia Terme</item>
+            <item>Altamura</item>
+            <item>Acireale</item>
+            <item>Bitonto</item>
+            <item>Montesilvano</item>
+            <item>Pavia</item>
+            <item>Corato</item>
+            <item>Gioia del Colle</item>
+            <item>Cosenza</item>
+            <item>Castellammare di Stabia</item>
+            <item>Caltanissetta</item>
+            <item>Civitavecchia</item>
+            <item>Oristano</item>
+            <item>Lecco</item>
+            <item>Cremona</item>
+            <item>Legnano</item>
+            <item>Pavia</item>
+            <item>Rovigo</item>
+            <item>Savigliano</item>
+            <item>Pinerolo</item>
+            <item>Saronno</item>
+            <item>Gorizia</item>
+            <item>Benevento</item>
+            <item>Avellino</item>
+            <item>Foggia</item>
+            <item>Battipaglia</item>
+            <item>Barletta</item>
+            <item>Matera</item>
+            <item>Altamura</item>
+            <item>Agrigento</item>
+            <item>Trapani</item>
+            <item>Castellammare di Stabia</item>
+            <item>Caltagirone</item>
+            <item>Monreale</item>
+            <item>Mazara del Vallo</item>
+            <item>Patu</item>
+            <item>Marcianise</item>
+            <item>Cava de\' Tirreni</item>
+            <item>Acqui Terme</item>
+            <item>Messina</item>
+            <item>Naples</item>
+            <item>Edinburgh</item>
+
+        </string-array>
+
+
+
+
+
+</resources>

@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+
+        android:id="@+id/cardView2"
+        android:layout_width="387dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="5dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/cardView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="399dp"
+            android:layout_height="70dp">
+
+            <ImageView
+                android:id="@+id/leftArrow"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="16dp"
+                android:elevation="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.002"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:srcCompat="@drawable/left" />
+
+            <ImageView
+                android:id="@+id/rightArrow"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="19dp"
+                android:elevation="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/right" />
+
+            <TextView
+                android:id="@+id/Date"
+                android:layout_width="79dp"
+                android:layout_height="32dp"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginEnd="15dp"
+                android:text="TextView"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toStartOf="@+id/rightArrow"
+                app:layout_constraintHorizontal_bias="0.09"
+                app:layout_constraintStart_toEndOf="@+id/leftArrow"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="0dp"
+        android:layout_height="290dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="6dp"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/backgroundImg"
+            android:layout_width="399dp"
+            android:layout_height="290dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/sunriseimg" />
+
+        <RelativeLayout
+            android:layout_width="399dp"
+            android:layout_height="290dp">
+
+
+            <ImageView
+                android:id="@+id/Setting"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="13dp"
+                android:layout_marginEnd="38dp"
+                android:layout_marginBottom="245dp"
+                app:srcCompat="@drawable/cog_icon" />
+
+            <ImageView
+                android:id="@+id/qiblah"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="274dp"
+                android:layout_toStartOf="@+id/Setting"
+                app:srcCompat="@drawable/qibla2" />
+
+            <TextView
+                android:id="@+id/Athkar"
+                android:layout_width="294dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="121dp"
+                android:background="@drawable/textview_rounded"
+                android:padding="16dp"
+                android:text="الأذكار"
+                android:textColor="@android:color/white" />
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="387dp"
+        android:layout_height="440dp"
+        android:layout_marginBottom="5dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <RelativeLayout
+            android:layout_width="374dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/City"
+                android:layout_width="158dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="108dp"
+                android:layout_marginTop="418dp"
+                android:layout_marginEnd="108dp"
+                android:text="TextView"
+                android:textAlignment="center" />
+
+            <RelativeLayout
+                android:id="@+id/fajrRelativeLayout"
+                android:layout_width="316dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="33dp"
+                android:layout_marginTop="43dp"
+                android:elevation="12dp">
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_alignParentStart="true"
+
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="2dp"
+                    android:elevation="11dp"
+                    app:srcCompat="@drawable/night2" />
+
+                <TextView
+                    android:id="@+id/TextView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_toEndOf="@+id/imageView6"
+                    android:elevation="11dp"
+                    android:text="Fajr" />
+
+                <TextView
+                    android:id="@+id/textViewFajrTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="26dp"
+                    android:layout_toEndOf="@+id/imageView6"
+                    android:elevation="11dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/sunriseRelativeLayout"
+                android:layout_width="316dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/fajrRelativeLayout"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="34dp"
+                android:layout_marginTop="15dp"
+                android:elevation="12dp">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="2dp"
+                    app:srcCompat="@drawable/sunrise" />
+
+                <TextView
+                    android:id="@+id/textViewSunriseTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="26dp"
+                    android:layout_toEndOf="@+id/imageView2" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_toEndOf="@+id/imageView2"
+                    android:text="Sunrise" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/dhuhrRelativeLayout"
+                android:layout_width="314dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="174dp"
+                android:elevation="12dp">
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="2dp"
+                    android:elevation="11dp"
+                    app:srcCompat="@drawable/noon" />
+
+                <TextView
+                    android:id="@+id/TextView17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_toEndOf="@+id/imageView8"
+                    android:elevation="11dp"
+                    android:text="Dhuhr" />
+
+                <TextView
+                    android:id="@+id/textViewDhuhrTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="26dp"
+                    android:layout_toEndOf="@+id/imageView8"
+                    android:elevation="11dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/asrRelativeLayout"
+                android:layout_width="321dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/dhuhrRelativeLayout"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="15dp"
+                android:elevation="12dp">
+
+                <ImageView
+                    android:id="@+id/imageView14"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="2dp"
+                    android:elevation="11dp"
+                    app:srcCompat="@drawable/noon" />
+
+                <TextView
+                    android:id="@+id/TextView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_toEndOf="@+id/imageView14"
+                    android:elevation="11dp"
+                    android:text="Asr" />
+
+                <TextView
+                    android:id="@+id/textViewAsrTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="26dp"
+                    android:layout_toEndOf="@+id/imageView14"
+                    android:elevation="11dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/maghribRelativeLayout"
+                android:layout_width="316dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/asrRelativeLayout"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="34dp"
+                android:layout_marginTop="14dp"
+                android:elevation="12dp">
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="2dp"
+                    android:elevation="11dp"
+                    app:srcCompat="@drawable/sunset" />
+
+                <TextView
+                    android:id="@+id/TextView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_toEndOf="@+id/imageView9"
+                    android:elevation="11dp"
+                    android:text="Maghrib" />
+
+                <TextView
+                    android:id="@+id/textViewMaghribTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="26dp"
+                    android:layout_toEndOf="@+id/imageView9"
+                    android:elevation="11dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/ishaRelativeLayout"
+                android:layout_width="315dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/maghribRelativeLayout"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="34dp"
+                android:layout_marginTop="13dp"
+                android:elevation="12dp">
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="2dp"
+                    android:elevation="11dp"
+                    app:srcCompat="@drawable/night" />
+
+                <TextView
+                    android:id="@+id/TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_toEndOf="@+id/imageView7"
+                    android:elevation="11dp"
+                    android:text="Isha" />
+
+                <TextView
+                    android:id="@+id/textViewIshaTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="26dp"
+                    android:layout_toEndOf="@+id/imageView7"
+                    android:elevation="11dp" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/textViewNextPrayerName"
+                android:layout_width="137dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="115dp"
+                android:layout_marginTop="8dp"
+                android:text="TextView"
+                android:textAlignment="center" />
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
